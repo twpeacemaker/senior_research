@@ -1,0 +1,32 @@
+%
+%
+% add extra comments here
+%
+%
+
+@relation Land-Use-Proj-Future
+
+@attribute d_categoryI numeric
+@attribute d_categoryII numeric
+@attribute d_city numeric
+@attribute d_highway numeric
+@attribute d_lake_pond numeric
+@attribute d_main_roads numeric
+@attribute d_rail numeric
+@attribute d_ramps numeric
+@attribute d_stream_river numeric
+@attribute elevation numeric
+@attribute prev_LU_class {OpenWater, PerennialIceSnow, DevelopedOpenSpace, DevelopedLowIntensity, DevelopedMediumIntensity, DevelopedHighIntensity, BarrenLand(RockSandClay), DeciduousForest, MixedForest, DwarfScrub, ShrubScrub, GrasslandHerbaceous, SedgeHerbaceous, Lichens, Moss, PastureHay, CultivatedCrops, WoodyWetlands, EmergentHerbaceousWetlands}
+@attribute mf_LU_class {OpenWater, PerennialIceSnow, DevelopedOpenSpace, DevelopedLowIntensity, DevelopedMediumIntensity, DevelopedHighIntensity, BarrenLand(RockSandClay), DeciduousForest, MixedForest, DwarfScrub, ShrubScrub, GrasslandHerbaceous, SedgeHerbaceous, Lichens, Moss, PastureHay, CultivatedCrops, WoodyWetlands, EmergentHerbaceousWetlands}
+@attribute smf_LU_class {OpenWater, PerennialIceSnow, DevelopedOpenSpace, DevelopedLowIntensity, DevelopedMediumIntensity, DevelopedHighIntensity, BarrenLand(RockSandClay), DeciduousForest, MixedForest, DwarfScrub, ShrubScrub, GrasslandHerbaceous, SedgeHerbaceous, Lichens, Moss, PastureHay, CultivatedCrops, WoodyWetlands, EmergentHerbaceousWetlands}
+@attribute VAC numeric
+@attribute AVG_VAC numeric
+@attribute VAC_3 numeric
+@attribute VAC_3TO6 numeric
+@attribute VAC_6TO12 numeric
+@attribute VAC_12TO24 numeric
+@attribute VAC_24TO36 numeric
+@attribute VAC_36 numeric
+@attribute LU_class {OpenWater, PerennialIceSnow, DevelopedOpenSpace, DevelopedLowIntensity, DevelopedMediumIntensity, DevelopedHighIntensity, BarrenLand(RockSandClay), DeciduousForest, MixedForest, DwarfScrub, ShrubScrub, GrasslandHerbaceous, SedgeHerbaceous, Lichens, Moss, PastureHay, CultivatedCrops, WoodyWetlands, EmergentHerbaceousWetlands}
+
+@data 
